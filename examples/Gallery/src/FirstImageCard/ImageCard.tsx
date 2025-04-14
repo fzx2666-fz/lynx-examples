@@ -1,5 +1,5 @@
-import "../index.scss";
-import type { Picture } from "../Pictures/furnitures/furnituresPictures.jsx";
+import "@styles";
+import type { Picture } from "@assets/furnitures/furnituresPictures.jsx";
 
 export default function ImageCard(props: { picture: Picture }) {
   const { picture } = props;

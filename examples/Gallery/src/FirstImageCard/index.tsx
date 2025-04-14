@@ -1,6 +1,6 @@
-import { furnituresPictures } from "../Pictures/furnitures/furnituresPictures.jsx";
+import { furnituresPictures } from "@assets/furnitures/furnituresPictures.jsx";
 import ImageCard from "./ImageCard.jsx";
-import "../index.scss";
+import "@styles";
 
 import { root } from "@lynx-js/react";
 

@@ -1,10 +1,10 @@
-import "../index.scss";
+import "@styles";
 import { useEffect, useRef } from "@lynx-js/react";
 import type { ScrollEvent } from "@lynx-js/types";
 import type { NodesRef } from "@lynx-js/types";
-import LikeImageCard from "../Components/LikeImageCard.jsx";
-import type { Picture } from "../Pictures/furnitures/furnituresPictures.jsx";
+import type { Picture } from "@assets/furnitures/furnituresPictures.jsx";
 import { calculateEstimatedSize } from "../utils.jsx";
+import LikeImageCard from "./LikeImageCard.jsx";
 import { NiceScrollbar, type NiceScrollbarRef } from "./NiceScrollbar.jsx";
 
 export const Gallery = (props: { pictureData: Picture[] }) => {

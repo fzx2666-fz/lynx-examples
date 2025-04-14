@@ -1,7 +1,7 @@
-import type { Picture } from "../Pictures/furnitures/furnituresPictures.jsx";
-import "../index.scss";
-import LikeImageCard from "../Components/LikeImageCard.jsx";
+import type { Picture } from "@assets/furnitures/furnituresPictures.jsx";
+import "@styles";
 import { calculateEstimatedSize } from "../utils.jsx";
+import LikeImageCard from "./LikeImageCard.jsx";
 
 export const Gallery = (props: { pictureData: Picture[] }) => {
   const { pictureData } = props;

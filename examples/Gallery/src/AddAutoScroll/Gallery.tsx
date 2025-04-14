@@ -1,9 +1,9 @@
-import "../index.scss";
+import "@styles";
+import type { Picture } from "@assets/furnitures/furnituresPictures.jsx";
 import { useEffect, useRef } from "@lynx-js/react";
 import type { NodesRef } from "@lynx-js/types";
-import LikeImageCard from "../Components/LikeImageCard.jsx";
-import type { Picture } from "../Pictures/furnitures/furnituresPictures.jsx";
 import { calculateEstimatedSize } from "../utils.jsx";
+import LikeImageCard from "./LikeImageCard.jsx";
 
 export const Gallery = (props: { pictureData: Picture[] }) => {
   const { pictureData } = props;

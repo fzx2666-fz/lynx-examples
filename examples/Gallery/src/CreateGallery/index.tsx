@@ -1,4 +1,4 @@
-import { furnituresPictures } from "../Pictures/furnitures/furnituresPictures.jsx";
+import { furnituresPictures } from "@assets/furnitures/furnituresPictures.jsx";
 
 import { root } from "@lynx-js/react";
 import Gallery from "./Gallery.jsx";

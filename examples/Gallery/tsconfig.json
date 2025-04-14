@@ -11,6 +11,18 @@
 
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@assets/*": [
+        "Pictures/*",
+      ],
+      "@styles": [
+        "index.scss",
+      ],
+    },
   },
+  "include": [
+    "src/**/*",
+  ],
   "exclude": ["dist/"],
 }

@@ -1,4 +1,4 @@
-import "../index.scss";
+import "@styles";
 import { type MainThreadRef, type RefObject } from "@lynx-js/react";
 import { MainThread } from "@lynx-js/types";
 

@@ -1,5 +1,5 @@
-import "../index.scss";
-import { type MainThreadRef, type RefObject } from "@lynx-js/react";
+import "@styles";
+import { type RefObject } from "@lynx-js/react";
 import { MainThread } from "@lynx-js/types";
 
 export const adjustScrollbarMTS = (scrollTop: number, scrollHeight: number, ref: RefObject<MainThread.Element>) => {

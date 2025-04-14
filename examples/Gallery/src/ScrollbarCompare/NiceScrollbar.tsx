@@ -1,4 +1,4 @@
-import "../index.scss";
+import "@styles";
 import { forwardRef, useImperativeHandle, useState } from "@lynx-js/react";
 
 export interface NiceScrollbarRef {

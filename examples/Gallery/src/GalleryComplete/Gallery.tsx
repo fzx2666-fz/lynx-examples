@@ -1,9 +1,9 @@
-import "../index.scss";
+import "@styles";
 import { useEffect, useMainThreadRef, useRef } from "@lynx-js/react";
 import { MainThread, type NodesRef, type ScrollEvent } from "@lynx-js/types";
-import LikeImageCard from "../Components/LikeImageCard.jsx";
-import type { Picture } from "../Pictures/furnitures/furnituresPictures.jsx";
+import type { Picture } from "@assets/furnitures/furnituresPictures.jsx";
 import { calculateEstimatedSize } from "../utils.jsx";
+import LikeImageCard from "./LikeImageCard.jsx";
 import { adjustScrollbarMTS, NiceScrollbarMTS } from "./NiceScrollbarMTS.jsx";
 
 export const Gallery = (
